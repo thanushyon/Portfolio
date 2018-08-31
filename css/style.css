@@ -8,27 +8,13 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Exo');
+
 html,
 body {
 	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-@font-face {
-    font-family: "Nordnet Sans";
-    src: url("../icon-fonts/NordnetSansBETA-Regular.woff") format('woff');
-}
-
-@font-face {
-    font-family: "Nordnet Sans";
-    src: url("../icon-fonts/NordnetSansBETA-Bold.woff") format('woff');
-		font-weight: bold;
-}
-
-@font-face {
-    font-family: "Nordnet Sans";
-    src: url("../icon-fonts/NordnetSansBETA-Light.woff") format('woff');
-		font-weight: lighter;
+	font-family: 'Exo', sans-serif;
 }
 
 h1,
@@ -40,11 +26,11 @@ h6 {
 	color: #40424a;
 	margin: 0;
 	font-weight: 700;
-	font-family: 'Overpass', sans-serif;
+	font-family: 'Cabin', sans-serif;
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 30px;
 }
 
 h3 {
